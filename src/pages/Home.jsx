@@ -68,7 +68,7 @@ function Home() {
       </div>
       <div className='my-28 max-w-[1300px] text-red-600 mx-auto px-5 flex flex-col justify-center items-center'>
         <h2 className="text-left text-4xl font-bold slide-in border-b-2 border-blue-700 inline pb-2">About Our Company</h2>
-        <p className="mt-8 text-center text-[18px] font-normal text-blue-900 "><span className='font-semibold'>MEREB®</span> Consulting Engineers and Architects is a highly regarded consulting firm operating at both the Federal level and Addis Ababa city administration level. With a team of experienced professionals, we specialize in Planning, Design, Construction Supervision, and Administration of Civil Engineering projects for public institutions and private individuals. Our head office is situated in Addis Ababa, Ethiopia. As an independent company, we maintain our objectivity and professional judgment, free from any influence or support from commercial, manufacturing, contracting, or public sources. Our reputation is built on our rich expertise and unwavering commitment to delivering exceptional services to our valued clients.</p>
+        <p className="mt-8 text-center text-[18px] font-normal text-blue-900 "><span className='font-semibold'>MEREB®</span> Consulting Engineers and Architects is a highly regarded Category One(Level 1) consulting firm operating at both the Federal level and Addis Ababa city administration level. With a team of experienced professionals, we specialize in Planning, Design, Construction Supervision, and Administration of Civil Engineering projects for public institutions and private individuals. Our head office is situated in Addis Ababa, Ethiopia. As an independent company, we maintain our objectivity and professional judgment, free from any influence or support from commercial, manufacturing, contracting, or public sources. Our reputation is built on our rich expertise and unwavering commitment to delivering exceptional services to our valued clients.</p>
         <a href="/about"> <button className='bg-blue-600 text-white px-8 py-2 mt-5 rounded-xl text-lg font-medium hover:bg-blue-500'>Learn More</button> </a>
           </div>
 
@@ -106,7 +106,7 @@ function Home() {
             <h2 className="text-left text-4xl font-bold slide-in border-b-2 border-blue-700 inline pb-2 leading-[55px]">Some of the Clients we've worked with</h2> 
            
           </div>
-            <marquee behavior="scroll" direction="left" className="w-full flex">
+          <marquee behavior="scroll" direction="left" scrollamount="25" className="w-full flex">
               <div className='flex gap-2'>
               {logos.map(i => (
                 <img src={`./assets/clients/${i}`} alt="Company Logo" className="h-24 mx-4" />

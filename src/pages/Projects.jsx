@@ -17,6 +17,7 @@ function Projects() {
             .then(data => {
                 console.log(data)
                 setCata(data)
+                
                 setLoading(false);
             }).catch(err => console.log(err));
     }, [])

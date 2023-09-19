@@ -22,13 +22,14 @@ projects(){
     projectCatagory {
       categoryName
     }
+    location
   }
 }
 `
 
 export const QUERY_CATAGORY = gql `
 {
-projectCatagories() {
+projectCatagories(first: 500) {
     id
     categoryName
     categoryPicture {
@@ -37,6 +38,7 @@ projectCatagories() {
     projects{
         id
         name
+        location
     }
   }
 }

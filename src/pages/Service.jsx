@@ -34,9 +34,9 @@ function Service() {
             </div>
             <h2 className="text-2xl text-red-600 text-center mt-14 slide-in">Unleashing Architectural Potential: Comprehensive Consultancy for <br /> Inspired Designs and Flawless Execution</h2>
 
-            <div className='max-w-[1300px] my-[65px] mx-auto flex flex-wrap gap-6 justify-center items-start px-5'>
+            <div className='max-w-[1300px] my-[65px] mx-auto flex flex-wrap gap-6 justify-center px-5'>
                 {/* card start */}
-                <div className='my-10 pb-3 w-full sm:w-[30%]  bg-blue-500 p-10 rounded-xl flex flex-col justify-start gap-5 text-white'>
+                <div className='my-10 pb-3 w-full sm:w-[30%]  bg-blue-500 p-10 rounded-xl flex flex-col justify-start gap-5 text-white flex-1'>
 
                     <img className='w-[25%] font-medium relative -top-[64px] right-10' src="./assets/icons/architectural-design.png" />
                     <div className='-mt-20 '>
