@@ -4,10 +4,10 @@ function Header() {
   return (
     <header className='sticky'>
       <nav class="bg-white border-gray-200 ">
-        <div class="flex flex-wrap justify-between items-center mx-auto mr-0 max-w-[1450px]">
+        <div class="flex flex-wrap justify-between items-center mx-auto mr-0 max-w-[1430px]">
           <a href="/" class="flex items-center gap-3">
             <img src="./assets/headerimg1.png" class="mr-3 h-28 w-[120px] hidden md:inline" alt="Mereb consulting Logo" />
-            <img src="./assets/headerimg3.png" class="mr-3 h-28 " alt="Mereb consulting Logo" />
+            <img src="./assets/headerimg3.png" class="mr-3 h-[85px] " alt="Mereb consulting Logo" />
             <img src="./assets/headerimg2.png" class="mr-3 h-28 w-[350px] hidden md:inline" alt="Mereb consulting Logo" />
           </a>
           <div class="flex items-center lg:order-2">
@@ -19,7 +19,7 @@ function Header() {
               <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </button>
           </div>
-          <div class="hidden justify-center items-center w-full lg:flex lg:w-auto md:ml-[100px] md:mr-[250px]" id="mobile-menu-2">
+          <div class="hidden justify-center items-center w-full lg:flex lg:w-auto md:ml-[105px] md:mr-[200px]" id="mobile-menu-2">
             <ul class="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0 text-lg font-semibold text-red-600">
               <li>
                 <a href="/" class="block py-2 pr-4 pl-3 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 " aria-current="page">Home</a>

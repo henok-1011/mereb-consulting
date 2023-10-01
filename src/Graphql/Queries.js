@@ -12,7 +12,7 @@ const category = `
 `
 export const QUERY_PROJECTS = gql `
 {
-projects(){
+projects(first: 500){
     id
     createdAt
     name

@@ -36,7 +36,7 @@ function Service() {
 
             <div className='max-w-[1300px] my-[65px] mx-auto flex flex-wrap gap-6 justify-center px-5'>
                 {/* card start */}
-                <div className='my-10 pb-3 w-full sm:w-[30%]  bg-blue-500 p-10 rounded-xl flex flex-col justify-start gap-5 text-white flex-1'>
+                <div className='my-10 pb-3 w-full sm:w-[30%]  bg-blue-500 p-10 rounded-xl flex flex-col justify-start gap-5 text-white '>
 
                     <img className='w-[25%] font-medium relative -top-[64px] right-10' src="./assets/icons/architectural-design.png" />
                     <div className='-mt-20 '>
@@ -90,7 +90,7 @@ function Service() {
 
                     <img className='w-[25%] font-medium relative -top-20 right-10' src="./assets/icons/ambt.png" />
                     <div className='-mt-20 '>
-                        <h1 className='text-3xl font-medium'>Alternative Modern Building Technologies Consultancy</h1>
+                        <h1 className='text-2xl font-bold'>Alternative Modern Building Technologies Consultancy</h1>
                         <p className='text-lg font-medium mt-5 pb-14'>Unlock innovative possibilities with our consultancy in alternative modern building technologies, revolutionizing construction practices.</p>
                     </div>
                 </div>

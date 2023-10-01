@@ -82,7 +82,7 @@ function Home() {
             <img className="h-12 w-12" src="./assets/icons/icons8-integrated-50.png" alt=""/>
             <h4 className="font-bold text-[26px] text-blue-600">Integrated</h4>
             <p className="mt-2 text-gray-600">
-              Our architecture consultancy takes an integrated approach, seamlessly combining various design elements and disciplines to create cohesive and harmonious spaces that meet both functional and aesthetic requirements.
+              Our Building Design consultancy takes an integrated approach, seamlessly combining various design elements and disciplines to create cohesive and harmonious spaces that meet both functional and aesthetic requirements.
             </p>
           </div>
 
@@ -90,7 +90,7 @@ function Home() {
             <img className="h-12 w-12" src="./assets/icons/icons8-client-oriented-50.png" alt="" />
             <h4 className="font-bold text-[26px] text-blue-600">Client-Oriented</h4>
             <p className="mt-2 text-gray-600">
-              With a client-oriented focus, our architecture consultancy prioritizes understanding and fulfilling our clients' unique needs, preferences, and goals, ensuring their vision is at the forefront of every design decision.
+              With a client-oriented focus, our Building Design consultancy prioritizes understanding and fulfilling our clients' unique needs, preferences, and goals, ensuring their vision is at the forefront of every design decision.
             </p>
           </div>
 
@@ -98,7 +98,7 @@ function Home() {
             <img className="h-12 w-12" src="./assets/icons/icons8-high-quality-80.png" alt="" />
             <h4 className="font-bold text-[26px] text-blue-600">High-quality</h4>
             <p className="mt-2 text-gray-600">
-              Our architecture consultancy is committed to delivering high-quality designs that exceed industry standards. We meticulously consider every detail, from materials and construction techniques to functionality and sustainability, ensuring exceptional outcomes for our clients.
+              Our Building Design consultancy is committed to delivering high-quality designs that exceed industry standards. We meticulously consider every detail, from materials and construction techniques to functionality and sustainability, ensuring exceptional outcomes for our clients.
             </p>
           </div>
 
