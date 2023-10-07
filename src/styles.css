@@ -78,3 +78,27 @@
     -webkit-text-stroke: 1px white;
     border: none;
 }
+
+.marquee-container {
+    overflow: hidden;
+}
+
+.marquee {
+    display: flex;
+    animation: marqueeAnimation 15s linear infinite;
+}
+
+.marquee img {
+    flex-shrink: 0;
+    width: auto;
+}
+
+@keyframes marqueeAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-200%);
+        /* Adjust to -300% if there are more repetitions */
+    }
+}

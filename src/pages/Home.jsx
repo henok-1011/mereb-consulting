@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import '../styles.css';
 
 function Home() {
-  const logos = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png"]
-
+  const logos = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png", "1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png"]
+  const allLogos = [...logos, ...logos];
   const texts = [
     "Inspiring Designs That Leave a Lasting Impression",
     "Architectural Excellence Redefined",
@@ -106,13 +106,15 @@ function Home() {
             <h2 className="text-left text-4xl font-bold slide-in border-b-2 border-blue-700 inline pb-2 leading-[55px]">Some of the Clients we've worked with</h2> 
            
           </div>
-          <marquee behavior="scroll" direction="left" scrollamount="25" className="w-full flex">
-              <div className='flex gap-2'>
-              {logos.map(i => (
-                <img src={`./assets/clients/${i}`} alt="Company Logo" className="h-24 mx-4" />
+          {/* <marquee behavior="scroll" direction="left" scrollamount="25" className="w-full flex"> */}
+          <div className="marquee-container">
+          <div className="marquee">
+              {allLogos.map(i => (
+                <img src={`./assets/clients/${i}`} alt="Company Logo" className="h-24 mx-3" />
               ))}
             </div>
-            </marquee>
+            </div>
+            {/* </marquee> */}
             <div className='flex justify-center w-full mt-10'>
             <a href="/projects"> <button className='bg-red-600 text-white px-8 py-2 mt-5 rounded-xl text-lg font-bold hover:bg-red-500'>See what We have done for them</button></a>
             </div>
